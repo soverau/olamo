@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <link rel="stylesheet" href="css/styles.css">-->
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1933791366.js" crossorigin="anonymous"></script>
+
+    <title>Olamo Propiedades</title>
+    
+</head>
+<body>
+    <header class="header homepage">
+
+        <div class="logo">
+            <a href="../index.html"><img src="../images/logo.jpg" alt="Logo de Olamo Propiedades"></a>
+            <h1>Olamo Propiedades</h1>
+        </div>
+
+        <nav class="top-nav">
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            <ul class="menu">
+                <li><a href="../files/nosotros.html">Nosotros</a></li>
+                <li><a href="../files/resultados.html">Alquileres</a></li>
+                <li><a href="../files/resultados.html">Ventas</a></li>
+                <li><a href="../files/busqueda.html">Búsqueda avanzada</a></li>
+                <li><a href="../files/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-right">
+            <nav>
+                <ul class="language">
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Español</a></li>
+                </ul>
+            </nav>
+            <form action="" class="searchbar">
+                <input type="search" placeholder="Buscar por palabra/ código" id="busqueda-index">
+                <!-- No sé cómo poner el iconito de la lupa directamente dentro del campo de busqueda así que por ahora dejo un boton de Submit. -->
+                <button type="submit"><span class="fa-solid fa-magnifying-glass"></span></button>
+            </form>
+        </div>
+        
+    </header>
+    
+    <main>
+        
+        
+
+        <section>
+
+            <div class="orden-header">
+                <h1>Resultados de la búsqueda</h1>
+
+                <select name="" class="orden">
+                    <option value="">Ordenar por &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&darr;</option>
+                    <option value="">Tipo de Operación</option>
+                    <option value="">Barrio</option>
+                    <option value="">Precio</option>
+                    <option value="">Tipo de Propiedad</option>
+                    <option value="">Dormitorios</option>
+                    <option value="">Superficie</option>
+                </select>
+            </div>
+                        <!--Acá no sé la forma óptima de presentar todo lo que aparece en el bloque de cada propiedad. Es lo que mejor se me ocurre por ahora-->
+            <article class="property">
+                <div class="property-image">
+                    <div class="opportunity-label">Oportunidad</div>
+                    <a href="propiedad-individual.html"><img class="property-image" src="../images/prop01.jpg" alt="Fachada de la casa 1"></a>
+                    <div class="transaction-button">Venta</div>
+                </div>
+                <h3>Sed ut perspiciatis unde omnis.</h3>
+                <span class="price">U$S 100.000</span>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
+            </article>
+
+            <article  class="property">
+                <div class="property-image">
+                    <a href="propiedad-individual.html"><img class="property-image" src="../images/prop02.jpg" alt="Living de la casa 2"></a>
+                    <div class="transaction-button">Venta</div>
+                </div>
+                <h3   h3>Sed ut perspiciatis unde omnis.</h3>
+                <span class="price">U$S 100.000</span>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
+            </article>
+
+            <article class="property">
+                <div class="property-image">
+                    <a href="propiedad-individual.html"><img class="property-image" src="../images/prop03.jpg" alt="Dormitorio de la casa 3"></a>
+                    <div class="transaction-button">Venta</div>
+                </div>
+                <h3>Sed ut perspiciatis unde omnis.</h3>
+                <span class="price">U$S 100.000</span>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
+            </article>
+            
+        </section>
+
+        <section>
+            <h2>Propiedades similares</h2>
+                        <!--Acá no sé la forma óptima de presentar todo lo que aparece en el bloque de cada propiedad. Es lo que mejor se me ocurre por ahora-->
+            <article class="property">
+                <div class="property-image">
+                    <div class="opportunity-label">Oportunidad</div>
+                    <a href="propiedad-individual.html"><img class="property-image" src="../images/prop01.jpg"></a>
+                    <div class="transaction-button">Venta</div>
+                </div>
+                <h3>Sed ut perspiciatis unde omnis.</h3>
+                <span class="price">U$S 100.000</span>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
+            </article>
+
+            <article  class="property">
+                <div class="property-image">
+                    <div class="opportunity-label">Oportunidad</div>
+                    <a href="propiedad-individual.html"><img class="property-image" src="../images/prop01.jpg"></a>
+                    <div class="transaction-button">Venta</div>
+                </div>
+                <h3   h3>Sed ut perspiciatis unde omnis.</h3>
+                <span class="price">U$S 100.000</span>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
+            </article>
+
+            <article class="property">
+                <div class="property-image">
+                    <div class="opportunity-label">Oportunidad</div>
+                    <a href="propiedad-individual.html"><img class="property-image" src="../images/prop01.jpg"></a>
+                    <div class="transaction-button">Venta</div>
+                </div>
+                <h3>Sed ut perspiciatis unde omnis.</h3>
+                <span class="price">U$S 100.000</span>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
+            </article>
+            
+        </section>
+        <section class="busqueda-avanzada">
+            <h2>Búsqueda Avanzada</h2>
+            <form action="" class="advanced-searchbox">
+                <select name="" id="operacion" class="orden">
+                <option value="">Tipo de Búsqueda</option>
+                <option value="">Venta</option>
+                <option value="">Alquiler</option>
+                </select>
+
+                <select name="" id="zona" class="orden">
+                    <!-- No sé cómo poner los barrios más indentados que la zona -->
+                    <option value="">Zona 1</option>
+                    <option value="">- Barrio 1</option>
+                    <option value="">- Barrio 2</option>
+                    <option value="">Zona 2</option>
+                    <option value="">- Barrio 3</option>
+                    <option value="">- Barrio 4</option>
+                </select>
+
+                <select name="" id="propiedad" class="orden">
+                    <option value="">Vivienda</option>
+                    <option value="">- Casa</option>
+                    <option value="">- Departamento</option>
+                    <option value="">- PH</option>
+                    <option value="">- Chacra</option>
+                    <option value="">Comercial</option>
+                    <option value="">- Local</option>
+                    <option value="">- Oficina</option>
+                    <option value="">- Depósito</option>
+                    <option value="">Cochera</option>
+                </select>
+
+                <select name="" id="superficie" class="orden">
+                    <option value="">Menos de 50m2</option>
+                    <option value="">51 a 100m2</option>
+                    <option value="">101 a 150m2</option>
+                    <option value="">151 a 200m2</option>
+                    <option value="">201 a 300m2</option>
+                    <option value="">más de 300m2</option>
+                </select>
+
+                <select name="" id="dormitorios" class="orden">
+                    <option value="">Estudio</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4 ó más</option>
+                </select>
+
+                <select name="" id="adicionales" multiple class="orden multi-choice">
+                    <option value="">Servicio de Internet</option>
+                    <option value="">Seguridad</option>
+                    <option value="">Portero</option>
+                    <option value="">Caseros</option>
+                    <option value="">Pileta</option>
+                    <option value="">Gimnasio</option>
+                    <option value="">Baulera</option>
+                    <option value="">Laundry</option>
+                    <option value="">Jacuzzi</option>
+                    <option value="">Solarium</option>
+                    <option value="">Cancha de ténis</option>
+                    <option value="">SUM</option>
+                    <option value="">Country / Barrio Cerrado</option>
+                    <option value="">Terraza</option>
+                    <option value="">Balcón</option>
+                    <option value="">Sauna</option>
+                    <option value="">Cava</option>
+                    <option value="">Sótano</option>
+
+                </select>
+
+                <select name="" id="estado" class="orden">
+                    <option value="">Nuevo</option>
+                    <option value="">Usado</option>
+                </select>
+
+                <select name="" id="orden" class="orden">
+                    <option value="">Tipo de Operación</option>
+                    <option value="">Barrio</option>
+                    <option value="">Precio</option>
+                    <option value="">Tipo de Propiedad</option>
+                    <option value="">Dormitorios</option>
+                    <option value="">Superficie</option>
+                </select>
+                <div class="scrollbar-container">
+                    <div class="scrollbar">
+                        <div class="price-selector-1">
+                            <i class="fa-solid fa-circle"></i>
+                        </div>
+                        <div class="search-price-1">US$ 100</div>
+
+                        <div class="line"> </div>
+
+                        <div class="price-selector-2">
+                            <i class="fa-solid fa-circle"></i>
+                        </div>
+
+                        <div class="search-price-2">US$ 999.000</div>
+                    </div>
+                </div>
+                <button type="submit">Buscar <span class="fa-solid fa-magnifying-glass"></span></button>
+                
+            </form>
+
+        </section>
+
+    </main>
+    <footer>
+
+        <nav class="main">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../files/nosotros.html"  class="current">Nosotros</a></li>
+                <li><a href="../files/resultados.html">Alquileres</a></li>
+                <li><a href="../files/resultados.html">Ventas</a></li>
+                <li><a href="../files/busqueda.html">Búsqueda avanzada</a></li>
+                <li><a href="../files/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <nav class="social">
+            <ul>
+                <li><a href="#"><img src="../images/facebook.jpg" width="20px" height="20px"></a></li>
+                <li><a href="#"><img src="../images/instagram.jpg" width="20px" height="20px"></a></li>
+            </ul>
+        </nav>
+
+    </footer>
+</body>
+</html>

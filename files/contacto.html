@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <link rel="stylesheet" href="css/styles.css">-->
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1933791366.js" crossorigin="anonymous"></script>
+
+    <title>Olamo Propiedades</title>
+    
+</head>
+<body>
+    <header class="header homepage">
+
+        <div class="logo">
+            <a href="../index.html"><img src="../images/logo.jpg" alt="Logo de Olamo Propiedades"></a>
+            <h1>Olamo Propiedades</h1>
+        </div>
+
+        <nav class="top-nav">
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            <ul class="menu">
+                <li><a href="../files/nosotros.html">Nosotros</a></li>
+                <li><a href="../files/resultados.html">Alquileres</a></li>
+                <li><a href="../files/resultados.html">Ventas</a></li>
+                <li><a href="../files/busqueda.html">Búsqueda avanzada</a></li>
+                <li><a href="../files/contacto.html" class="current">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-right">
+            <nav>
+                <ul class="language">
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Español</a></li>
+                </ul>
+            </nav>
+            <form action="" class="searchbar">
+                <input type="search" placeholder="Buscar por palabra/ código" id="busqueda-index">
+                <!-- No sé cómo poner el iconito de la lupa directamente dentro del campo de busqueda así que por ahora dejo un boton de Submit. -->
+                <button type="submit"><span class="fa-solid fa-magnifying-glass"></span></button>
+            </form>
+        </div>
+        
+    </header>
+    
+    <main>
+        <!-- Mi h1 sería invisible -->
+        <div class="contacto"><h1>Contacto</h1></div>
+
+        <section class="contacto">
+            <div class="highlight-text">         <!-- Tuve que usar posicionamiento absolute porque no podía controlar dónde aparecían los elementos. Me parece que no es la mejor práctica no? No sé por qué esto se pegue contra el borde de abajo... -->
+
+                <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+            </div>
+
+            <form class="contact-form" action="">
+                <h2>Envíenos sus datos y tasamos gratis</h2>
+
+                <input class="inputform" type="text" id="nombre" name="nombre" placeholder="Nombre">
+                <input class="inputform" type="text" id="apellido" name="apellido" placeholder="Apellido">
+                <input class="inputform" type="email" id="email" name="email" placeholder="email">
+                <input class="inputform" type="tel" id="tel" name="tel" placeholder="Teléfono">
+                <label for="mensaje"><p>Mensaje</p></label>
+                <input class="textarea" type="textarea" id="mensaje" name="mensaje">
+                <a href="#"><button>Enviar</button></a>
+            </form>
+
+        </section>
+
+
+    </main>
+   <footer class="contact">
+
+        <nav class="main">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../files/nosotros.html">Nosotros</a></li>
+                <li><a href="../files/resultados.html">Alquileres</a></li>
+                <li><a href="../files/resultados.html">Ventas</a></li>
+                <li><a href="../files/busqueda.html">Búsqueda avanzada</a></li>
+                <li><a href="../files/contacto.html" class="current">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <nav class="social">
+            <ul>
+                <li><a href="#"><img src="../images/facebook.jpg" width="20px" height="20px"></a></li>
+                <li><a href="#"><img src="../images/instagram.jpg" width="20px" height="20px"></a></li>
+            </ul>
+        </nav>
+
+    </footer>
+</body>
+</html>
