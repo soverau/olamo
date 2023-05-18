@@ -1270,7 +1270,7 @@ nav.social ul li:nth-of-type(2) {
 
 /* 
 -----------------
-section  - busqueda avanzada
+responsive section  - busqueda avanzada
 -----------------
 */
 
@@ -1298,7 +1298,7 @@ section .advanced-searchbox .orden {
 
 /*
 ------------------
-section - contacto
+responsive section - contacto
 -------------------
 */
 
@@ -1338,7 +1338,7 @@ section.contacto .highlight-text {
 
 /* 
 -----------------
-nosotros section - articles
+responsive nosotros section - articles
 -----------------
 */
 
@@ -1388,40 +1388,12 @@ section.tasaciones .section-text {
 
 /* 
 -----------------
-propiedad individual section
+responsive propiedad individual section
 -----------------
 */
 
 section.individual {
-  height:auto;
   padding:30px 5vw;
-  height: fit-content;
-}
-
-.photoframe {
-
-}
-
-.photoframe > img {
-  object-fit: cover;
-  width: 100%;
-  max-width: 100%;
-  height:100%;
-}
-
-.photoframe img:nth-of-type(1) {
-  grid-area: photo1;
-  max-width: 62.2vw;
-  height:100%;
-}
-
-.photoframe img:nth-of-type(2) {
-  grid-area: photo2;
-
-}
-
-.photoframe img:nth-of-type(3) {
-  grid-area: photo3;
 }
 
 .detail-line {
@@ -1445,25 +1417,6 @@ section.individual {
 .detail-line ul li {
   line-height: 16px;
   margin:0 30px 0 30px ;
-
-}
-
-section.individual .detail-line .saletype-button  {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border: none;
-  color: #fff;
-  background-color: #b62300;
-  cursor: pointer;
-  padding: 2px;
-  width:auto;
-  width:100px;
-  padding:10px;
-  text-align: center;
-  position: relative;
-  margin-right: 50px;
-  border-radius:5px;
 }
 
 .text-block {
@@ -1472,28 +1425,13 @@ section.individual .detail-line .saletype-button  {
   width:100%;
 }
 
-.text-block h1 {
- 
-}
-
-.text-block h2 {
-  
-}
-
-.text-block p {
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  font-variant: normal;
-}
-
 .description {
-  row-gap: 1vw;
   width: 100%;
 }
 
 .maps {
   width: 100%;
-  height:30vh;
-
+  height:50vh;
 }
 
 
