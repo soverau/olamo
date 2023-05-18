@@ -2,8 +2,7 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
+    
 }
 
 /* 
@@ -46,6 +45,8 @@ h2 {
     line-height: 48px;
     text-align: center;
     letter-spacing: -0.015em;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 h3 {
@@ -766,7 +767,6 @@ section.individual {
 .detail-line h3 {
   margin-bottom: 0;
   font-size: 18px;
-  margin-bottom: 20px;
 }
 
 .text-block h1 {
@@ -822,6 +822,7 @@ section.individual .detail-line .saletype-button  {
   grid-template-areas:  "title title title"
                         "sub sub sub"
                        "text text map";
+  grid-template-rows: auto auto 1fr;
   height: auto;
 }
 .description {
@@ -1015,7 +1016,7 @@ responsive
 */
 
 
-@media (max-width:720px) {
+@media (max-width:768px) {
     
 .header {
   width: 100%;
