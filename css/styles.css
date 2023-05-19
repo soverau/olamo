@@ -12,7 +12,7 @@ text styles
 
 
 h1 {
-    color: #000;
+    color: #555;
     font-family: 'Castoro Titling', 'Copperplate', Arial, Helvetica, sans-serif;
     font-variant: small-caps;
     font-style: normal;
@@ -437,9 +437,7 @@ section  - busqueda avanzada
 
 
 section .orden-header {
-
   width:100%;
-
 }
 
 section .advanced-searchbox {
@@ -926,7 +924,9 @@ section.contacto .highlight-text {
   padding: 2px 20px;
   margin:2% 2% 2% 0;
   height:30px;
-  border: #ccc solid 1px ;
+  border: #ccc solid 1px;
+  font-family: 'Montserrat', Arial, Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
 
 .contact-form label {
