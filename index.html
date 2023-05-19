@@ -3,10 +3,8 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!-- <link rel="stylesheet" href="css/styles.css">-->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,9 +13,13 @@
     <script src="https://kit.fontawesome.com/1933791366.js" crossorigin="anonymous"></script>
 
     <title>Olamo Propiedades</title>
-    
+
 </head>
+
 <body>
+
+    <!-- START HEADER -->
+
     <header class="header homepage">
 
         <div class="logo">
@@ -48,22 +50,26 @@
             </nav>
             <form action="" class="searchbar">
                 <input type="search" placeholder="Buscar por palabra/ código" id="busqueda-index">
-                <!-- No sé cómo poner el iconito de la lupa directamente dentro del campo de busqueda así que por ahora dejo un boton de Submit. -->
                 <button type="submit"><span class="fa-solid fa-magnifying-glass"></span></button>
             </form>
         </div>
-        
+
     </header>
+
+    <!-- END HEADER -->
+
+    <!-- START MAIN -->
 
     <main>
 
+    <!-- SLIDER -->
 
     <div class="carousel-container">
         <div id="carouselProperties" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-              <li data-target="#carouselProperties" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselProperties" data-slide-to="1"></li>
-              <li data-target="#carouselProperties" data-slide-to="2"></li>
+                <li data-target="#carouselProperties" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselProperties" data-slide-to="1"></li>
+                <li data-target="#carouselProperties" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
             <div class="carousel-item active">
@@ -91,99 +97,110 @@
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselProperties" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
             </a>
             <a class="carousel-control-next" href="#carouselProperties" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
             </a>
-          </div>
-          </div>
+        </div>
+        </div>
     </div>
 
-          <section>
-            <h2>Propiedades Destacadas</h2>
-            <!--Acá no sé la forma óptima de presentar todo lo que aparece en el bloque de cada propiedad. Es lo que mejor se me ocurre por ahora-->
-            <article class="property">
-                <div class="property-image">
-                    <div class="opportunity-label">Oportunidad</div>
-                    <a href="files/propiedad-individual.html"><img class="property-image" src="images/prop01.jpg" alt="Fachada de la casa 1"></a>
-                    <div class="transaction-button">Venta</div>
-                </div>
-                <h3>Sed ut perspiciatis unde omnis.</h3>
-                <span class="price">U$S 100.000</span>
-                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
-            </article>
+    <!-- END SLIDER -->
 
-            <article  class="property">
-                <div class="property-image">
-                    <a href="files/propiedad-individual.html"><img class="property-image" src="images/prop02.jpg" alt="Living de la casa 2"></a>
-                    <div class="transaction-button">Venta</div>
-                </div>
-                <h3   h3>Sed ut perspiciatis unde omnis.</h3>
-                <span class="price">U$S 100.000</span>
-                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
-            </article>
+    <!-- PROPIEDADES DESTACADAS -->
 
-            <article class="property">
-                <div class="property-image">
-                    <a href="files/propiedad-individual.html"><img class="property-image" src="images/prop03.jpg" alt="Dormitorio de la casa 3"></a>
-                    <div class="transaction-button">Venta</div>
-                </div>
-                <h3>Sed ut perspiciatis unde omnis.</h3>
-                <span class="price">U$S 100.000</span>
-                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
-            </article>
-          </section>
-
-
-          <section class="otros-servicios">
-            <h2>Otros Servicios</h2>
-            <div class="highlight">
-                <div class="highlight-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</div>
-                <!--Acá es mejor usar divs o botones?-->
-                <button>Tasaciones</button>
-                <button>Contacto</button>
+    <section>
+        <h2>Propiedades Destacadas</h2>
+        <article class="property">
+            <div class="property-image">
+                <div class="opportunity-label">Oportunidad</div>
+                <a href="files/propiedad-individual.html"><img class="property-image" src="images/prop01.jpg" alt="Fachada de la casa 1"></a>
+                <div class="transaction-button">Venta</div>
             </div>
-           </section>
+            <h3>Sed ut perspiciatis unde omnis.</h3>
+            <span class="price">U$S 100.000</span>
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
+        </article>
 
+        <article  class="property">
+            <div class="property-image">
+                <a href="files/propiedad-individual.html"><img class="property-image" src="images/prop02.jpg" alt="Living de la casa 2"></a>
+                <div class="transaction-button">Venta</div>
+            </div>
+            <h3   h3>Sed ut perspiciatis unde omnis.</h3>
+            <span class="price">U$S 100.000</span>
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
+        </article>
 
-        </main>
+        <article class="property">
+            <div class="property-image">
+                <a href="files/propiedad-individual.html"><img class="property-image" src="images/prop03.jpg" alt="Dormitorio de la casa 3"></a>
+                <div class="transaction-button">Venta</div>
+            </div>
+            <h3>Sed ut perspiciatis unde omnis.</h3>
+            <span class="price">U$S 100.000</span>
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
+        </article>
 
-        <footer>
+    </section>
+    <!-- END PROPIEDADES DESTACADAS -->
 
-            <nav class="main">
-                <ul>
-                    <li><a href="files/index.html"  class="current">Home</a></li>
-                    <li><a href="files/nosotros.html">Nosotros</a></li>
-                    <li><a href="files/resultados.html">Alquileres</a></li>
-                    <li><a href="files/resultados.html">Ventas</a></li>
-                    <li><a href="files/busqueda.html">Búsqueda avanzada</a></li>
-                    <li><a href="files/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-    
-            <nav class="social">
-                <ul>
-                    <li><a href="#"><img src="images/facebook.jpg" width="20px" height="20px" alt="Facebook"></a></li>
-                    <li><a href="#"><img src="images/instagram.jpg" width="20px" height="20px" alt="Instagram"></a></li>
-                </ul>
-            </nav>
-    
-        </footer>
+    <!-- OTROS SERVICIOS -->
 
+    <section class="otros-servicios">
+        <h2>Otros Servicios</h2>
+        <div class="highlight">
+            <div class="highlight-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</div>
+            <!--Acá es mejor usar divs o botones?-->
+            <button>Tasaciones</button>
+            <button>Contacto</button>
+        </div>
+    </section>
+
+    <!-- END OTROS SERVICIOS -->
+
+    </main>
+
+    <!-- END MAIN -->
+
+    <!-- START FOOTER -->
+
+    <footer>
+
+        <nav class="main">
+            <ul>
+                <li><a href="files/index.html"  class="current">Home</a></li>
+                <li><a href="files/nosotros.html">Nosotros</a></li>
+                <li><a href="files/resultados.html">Alquileres</a></li>
+                <li><a href="files/resultados.html">Ventas</a></li>
+                <li><a href="files/busqueda.html">Búsqueda avanzada</a></li>
+                <li><a href="files/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <nav class="social">
+            <ul>
+                <li><a href="#"><img src="images/facebook.jpg" width="20px" height="20px" alt="Facebook"></a></li>
+                <li><a href="#"><img src="images/instagram.jpg" width="20px" height="20px" alt="Instagram"></a></li>
+            </ul>
+        </nav>
+
+    </footer>
+
+     <!-- END FOOTER -->
 
 
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  
-
 
 </body>
  

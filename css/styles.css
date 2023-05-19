@@ -2,12 +2,11 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    
 }
 
-/* 
+/*
 -----------------
-text styles 
+text styles
 -----------------
 */
 
@@ -26,7 +25,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-/* 
+/*
 -----------------
 h1 not visible on home page and contact page
 -----------------
@@ -66,9 +65,9 @@ p { font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 
 }
 
-/* 
+/*
 -----------------
-header and nav styles 
+header and nav styles
 -----------------
 */
 .header {
@@ -181,8 +180,6 @@ nav.social ul li {
     overflow: hidden;
 }
 
-
-
 select.orden {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -201,7 +198,7 @@ select.orden {
     background-color: #fff;
     font-family: 'Castoro Titling', 'Copperplate', Arial, Helvetica, sans-serif;
     font-variant: small-caps;    
-    color: #ccc;
+    color: #555;
 }
 
 select.orden::before {
@@ -214,12 +211,10 @@ select.orden::before {
 }
 
 
-/* 
+/*
 -----------------
 searchbar in header
 -----------------
-
-
 */
 
 
@@ -367,7 +362,7 @@ button {
 
 }
 
-/* 
+/*
 -----------------
 main section  - properties
 -----------------
@@ -412,7 +407,7 @@ section.otros-servicios {
   background-color: #eee;
 }
 
-/* 
+/*
 -----------------
 section  - busqueda avanzada
 -----------------
@@ -447,7 +442,7 @@ section .advanced-searchbox .orden {
 }
 
 
-/* 
+/*
 -----------------
 línea selectora de precio
 -----------------
@@ -472,7 +467,7 @@ línea selectora de precio
   -moz-border-radius: 0%;
   -webkit-border-radius: 0%;
   font-family: 'Castoro Titling', 'Copperplate', Arial, Helvetica, sans-serif;
-  font-variant: small-caps;    
+  font-variant: small-caps;
   color: #777;
 }
 
@@ -537,7 +532,7 @@ línea selectora de precio
 
 
 
-/* 
+/*
 -----------------
 main section - articles
 -----------------
@@ -621,7 +616,7 @@ article h3 {
 
 article .price {
   font-family: 'Castoro Titling', 'Copperplate', Arial, Helvetica, sans-serif;
-  font-variant: small-caps;    
+  font-variant: small-caps;
   font-size: 1rem;
   line-height: .8rem;
   margin-bottom: 1rem;
@@ -636,7 +631,7 @@ article p {
 
 
 
-/* 
+/*
 -----------------
 nosotros section - articles
 -----------------
@@ -695,7 +690,7 @@ section.tasaciones .section-text {
 }
 
 
-/* 
+/*
 -----------------
 propiedad individual section
 -----------------
@@ -713,7 +708,7 @@ section.individual {
   background-color: #eee;
   font-family: 'Castoro Titling', 'Copperplate', Arial, Helvetica, sans-serif;
   font-variant: small-caps;
-  
+
 }
 
 .photoframe {
@@ -727,7 +722,7 @@ section.individual {
   min-height: 40vw;
   max-width: 94vw;
   overflow: hidden;
-  
+
 }
 
 .photoframe > img {
@@ -956,7 +951,7 @@ section.contacto .highlight-text {
 
 
 
-/* 
+/*
 -----------------
 footer
 -----------------
@@ -1006,15 +1001,15 @@ nav.main ul li {
 }
 
 
-/* 
+/*
 -----------------
-responsive 
+responsive
 -----------------
 */
 
 
 @media (max-width:768px) {
-    
+
 .header {
   width: 100%;
   flex-direction: column;
@@ -1047,9 +1042,9 @@ nav ul.language {
 }
 
 
-/* 
+/*
 -----------------
-Hamburger menu 
+Hamburger menu
 -----------------
 */
 
@@ -1189,9 +1184,9 @@ responsive - carousel
   padding-bottom: 1vh;
 }
 
-/* 
+/*
 -----------------
-responsive - section 
+responsive - section
 -----------------
 */
 
@@ -1268,7 +1263,7 @@ nav.social ul li:nth-of-type(2) {
 
 
 
-/* 
+/*
 -----------------
 responsive section  - busqueda avanzada
 -----------------
@@ -1336,7 +1331,7 @@ section.contacto .highlight-text {
 }
 
 
-/* 
+/*
 -----------------
 responsive nosotros section - articles
 -----------------
@@ -1399,19 +1394,25 @@ section.individual {
 .detail-line {
   align-items: left;
   padding: 10px 10px 10px 0;
-}
-
-.detail-line ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  list-style-type: circle;
+  max-width: 90vw;
 }
 
 .detail-line h3 {
   margin-bottom: 0;
   font-size: 18px;
   line-height: 18px;
+  margin-right: 20px;
+}
+
+section.individual .detail-line .saletype-button {
+  margin-right: 20px;
+}
+.detail-line ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  list-style-type: circle;
+  padding-inline-start:10px;
 }
 
 .detail-line ul li {
@@ -1423,6 +1424,10 @@ section.individual {
   display: flex;
   flex-direction: column;
   width:100%;
+}
+
+.text-block h1 {
+  font-size: 36px;
 }
 
 .description {
