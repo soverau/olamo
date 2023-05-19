@@ -79,25 +79,26 @@ header and nav styles
   width:100%;
 }
 
-
-
 .header-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 300px;
-    width:20%;
+    min-width: 240px;
+    width:20vw;
+
 }
 
 .logo {
-    width: 25%;
+    width: 30vw;
     max-width:300px;
     height:auto;
     padding-left: 20px;
+    object-fit: contain;
 }
 .logo img {
     max-width: 300px;
+    width: 100%;
     height:auto;
     padding: 20px 0 20px 0;
 }
@@ -132,6 +133,7 @@ ul.language {
     padding-inline-start: 0;
     margin:0 auto 7px;
     font-size: 12px;
+    width: 20%;
 }
 
 ul.language li {
@@ -148,6 +150,7 @@ nav {
     font-family: 'Castoro Titling', 'Copperplate', Arial, Helvetica, sans-serif;
     font-variant: small-caps;    
     color:#b62300;
+    width:45vw
 }
 nav ul li, nav ul li a, nav ul li a:hover, nav ul li a:visited {
     list-style-type: none;
@@ -160,6 +163,25 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+footer nav.main {
+    max-width: 85vw;
+}
+
+footer nav.main ul {
+  flex-wrap:nowrap;
+  align-items: center;
+}
+
+footer nav.main ul li{
+  line-height: .8rem;
+}
+
+
+
+nav.social {
+  max-width:80px;
+
+}
 /* Esto no sé si ponerlo porque me queda el menú en gris luego de visitarlo una vez
 nav ul li a:visited {
     color:#777;
@@ -416,7 +438,7 @@ section  - busqueda avanzada
 
 section .orden-header {
 
-  width:100vw;
+  width:100%;
 
 }
 
@@ -650,7 +672,12 @@ section .six-col-image {
   top:0px !important;
   padding-top: 0;
   background-color: #ccc;
-  min-height:500px;
+  object-fit: cover;
+}
+
+section .six-col-image img {
+  width:100%;
+  min-height:100%;
 }
 
 section.nosotros .section-text {
@@ -1044,7 +1071,7 @@ nav ul.language {
 
 /*
 -----------------
-Hamburger menu
+responsive Hamburger menu
 -----------------
 */
 
@@ -1170,7 +1197,7 @@ responsive - carousel
 }
 
 .carousel-caption {
-  bottom: -10vh;
+  bottom: -10vw;
   width: 70vw;
 }
 
@@ -1219,6 +1246,7 @@ article {
 section.otros-servicios .highlight {
   flex-direction: column;
   justify-content: space-around;
+  margin-right: 0;
 }
 
 .highlight-text {
@@ -1346,8 +1374,10 @@ section.nosotros {
 }
 
 section .six-col-image {
-  min-height: 30vh;
+  min-height: 10vh;
   width:100%;
+  margin-top:2vh;
+  margin-bottom:3vh;
 }
 
 section.nosotros .section-text {
@@ -1399,8 +1429,8 @@ section.individual {
 
 .detail-line h3 {
   margin-bottom: 0;
-  font-size: 18px;
-  line-height: 18px;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
   margin-right: 20px;
 }
 
@@ -1417,7 +1447,7 @@ section.individual .detail-line .saletype-button {
 
 .detail-line ul li {
   line-height: 16px;
-  margin:0 30px 0 30px ;
+  margin:0 20px 0 20px ;
 }
 
 .text-block {
@@ -1427,7 +1457,7 @@ section.individual .detail-line .saletype-button {
 }
 
 .text-block h1 {
-  font-size: 36px;
+  font-size: 1.8rem;
 }
 
 .description {
