@@ -22,7 +22,7 @@ responsive
         align-items: center;
         justify-content: space-between;
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        color: #b62300;
+        color: $color-main;
         height: auto;
         padding: 1em;
       }
@@ -40,10 +40,7 @@ responsive
       }
 
     }
-    
-    
-    
-    
+
     /*
 -----------------
 responsive Hamburger menu
@@ -80,7 +77,7 @@ responsive Hamburger menu
   .menu-button,
   .menu-button::before,
   .menu-button::after {
-    background-color: #b62300;
+    background-color: $color-main;
     position: absolute;
     height: 4px;
     width: 30px;

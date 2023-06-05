@@ -35,7 +35,7 @@ section {
     }
 
     &.otros-servicios {
-      background-color: #eee;
+      background-color: $bground-color-light;
     }
 
   article {
@@ -80,7 +80,7 @@ section {
       margin-top: 1rem;
       margin-bottom: 1rem;
       padding-right: 1rem;
-      color:#000;
+      color:$font-color-extradark;
       font-variant-caps: titling-caps;
       }
 
@@ -94,7 +94,7 @@ section {
     }
 
     p {
-      color: #000;
+      color: $font-color-extradark;
       padding-right: 1rem;
     }
 
@@ -132,7 +132,7 @@ section {
       .highlight-text {
       width:70vw;
       font-size: 2vw;
-      font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+      font-family: $main-font;
       font-style: normal;
       }
     }
@@ -154,7 +154,7 @@ section {
         width: 48vw;
         top:0px !important;
         padding-top: 0;
-        background-color: #ccc;
+        background-color: $border-color-light;
         object-fit: cover;
 
         img {
@@ -205,13 +205,13 @@ section {
       padding:30px 3% 3% 3%;
       min-height: 70vh;
       height: fit-content;
-      background-color: #eee;
+      background-color: $bground-color-light;
 
 
       .highlight-text {
 
         width: 40vw;
-        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+        font-family: $main-font;
         font-style: normal;
         font-weight: 100;
         font-size: 32px;
@@ -219,7 +219,7 @@ section {
         letter-spacing: -0.015em;
         margin-bottom: 2%;
         margin-right: 5%;
-        color: #000000;
+        color: $font-color-extradark;
         vertical-align: text-top;
       }
 
@@ -236,7 +236,7 @@ section {
         width:45vw;
         min-height:45vh;
         height: fit-content;
-        border: #aaa solid 1px;
+        border: $border-color-med solid 1px;
         text-align: left;
 
         h2 {
@@ -253,8 +253,8 @@ section {
           padding: 2px 20px;
           margin:2% 2% 2% 0;
           height:30px;
-          border: #ccc solid 1px;
-          font-family: 'Montserrat', Arial, Arial, Helvetica, sans-serif;
+          border: $border-color-light solid 1px;
+          font-family: $main-font;
           font-size: 12px;
         }
 
@@ -267,7 +267,7 @@ section {
           padding: 2px 20px;
           width:98%;
           height:100px;
-          border: #ccc solid 1px;
+          border: $border-color-light solid 1px;
         
         }
 
@@ -306,15 +306,6 @@ section {
 
       }
 
-      
-      
-      
-      
-      
-      
-      
-      
-
 
     }
 
@@ -335,7 +326,7 @@ section {
       padding:30px 3% 3% 3%;
       min-height: 70vh;
       height: fit-content;
-      background-color: #eee;
+      background-color: $bground-color-light;
       font-family: $title-font;
 
       .photoframe {
@@ -518,7 +509,7 @@ section {
         border-radius:0%;
         -moz-border-radius: 0%;
         -webkit-border-radius: 0%;
-        font-family: 'Castoro Titling', 'Copperplate', Arial, Helvetica, sans-serif;
+        font-family: $title-font;
         font-variant: small-caps;
         color: $font-color-med;
       

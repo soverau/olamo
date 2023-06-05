@@ -160,10 +160,10 @@ header .searchbar button, header .searchbar section.individual .detail-line .sal
   margin-left: -25px;
 }
 header .searchbar input {
-  background: #fefefe;
+  background: #eee;
   border: #777;
-  border: 1px solid #d3d3d3;
-  font: 10px/12px "Montserrat", Helvetica, Arial, sans-serif;
+  border: 1px solid #aaa;
+  font: 10px/12px "Montserrat", Arial, Helvetica, sans-serif;
   margin-right: 5px;
   padding: 2px 2px 2px 8px;
   width: 230px;
@@ -453,7 +453,7 @@ section.contacto .highlight-text {
   letter-spacing: -0.015em;
   margin-bottom: 2%;
   margin-right: 5%;
-  color: #000000;
+  color: #000;
   vertical-align: text-top;
 }
 section.contacto .contact-form {
@@ -486,7 +486,7 @@ section.contacto .contact-form input {
   margin: 2% 2% 2% 0;
   height: 30px;
   border: #ccc solid 1px;
-  font-family: "Montserrat", Arial, Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
 section.contacto .contact-form .textarea {
