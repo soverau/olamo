@@ -786,37 +786,6 @@ main  - carousel
 
 /*
 -----------------
-responsive - carousel
------------------
-*/
-@media (max-width: 768px) {
-  .carousel-container .carousel {
-    height: 55vw;
-  }
-  .carousel-container .carousel h4 {
-    margin-bottom: 5px;
-    font-size: 5vw;
-    line-height: 7vw;
-  }
-  .carousel-container .carousel .highlight-text {
-    padding-bottom: 1vh;
-  }
-  .carousel-container .carousel .carousel-inner {
-    height: 55vw;
-  }
-  .carousel-container .carousel .carousel-inner .carousel-item {
-    height: 55vw;
-  }
-  .carousel-container .carousel .carousel-indicators {
-    display: none;
-  }
-  .carousel-container .carousel .carousel-caption {
-    bottom: -10vw;
-    width: 70vw;
-  }
-}
-/*
------------------
 footer
 -----------------
 */
@@ -851,38 +820,6 @@ nav.main ul li {
   padding-right: 20px;
 }
 
-/*
------------------
-responsive
------------------
-*/
-@media (max-width: 768px) {
-  footer {
-    flex-direction: column;
-    align-items: center;
-    margin: 30px auto 3000px;
-  }
-  footer nav.main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: none;
-    min-width: none;
-  }
-  footer nav.main ul {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-  }
-  footer nav.main ul li {
-    padding-right: 0;
-    padding-bottom: 10px;
-  }
-  footer nav.main ul li:nth-of-type(2) {
-    padding-right: 0px;
-  }
-}
 /*
 -----------------
 responsive
@@ -1035,6 +972,46 @@ responsive
   }
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
+  }
+}
+/*
+-----------------
+responsive - carousel
+-----------------
+*/
+@media (max-width: 1200px) {
+  .carousel-container .carousel {
+    height: 35vw;
+  }
+  .carousel-container .carousel h4 {
+    font-size: 2.1rem;
+    line-height: 2.4rem;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-container .carousel {
+    height: 55vw;
+  }
+  .carousel-container .carousel h4 {
+    margin-bottom: 5px;
+    font-size: 5vw;
+    line-height: 7vw;
+  }
+  .carousel-container .carousel .highlight-text {
+    padding-bottom: 1vh;
+  }
+  .carousel-container .carousel .carousel-inner {
+    height: 55vw;
+  }
+  .carousel-container .carousel .carousel-inner .carousel-item {
+    height: 55vw;
+  }
+  .carousel-container .carousel .carousel-indicators {
+    display: none;
+  }
+  .carousel-container .carousel .carousel-caption {
+    bottom: -10vw;
+    width: 70vw;
   }
 }
 /*
@@ -1219,6 +1196,38 @@ responsive
   section.contacto .contact-form a button, section.contacto .contact-form a article .property-image .opportunity-label, section.contacto article .property-image .contact-form a .opportunity-label, section.contacto .contact-form a article .property-image .transaction-button, section.contacto article .property-image .contact-form a .transaction-button, section.contacto .contact-form a section.individual .detail-line .saletype-button, section.individual .detail-line section.contacto .contact-form a .saletype-button {
     min-width: 25vw;
     width: auto;
+  }
+}
+/*
+-----------------
+responsive footer
+-----------------
+*/
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto 3000px;
+  }
+  footer nav.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: none;
+    min-width: none;
+  }
+  footer nav.main ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+  }
+  footer nav.main ul li {
+    padding-right: 0;
+    padding-bottom: 10px;
+  }
+  footer nav.main ul li:nth-of-type(2) {
+    padding-right: 0px;
   }
 }
 
