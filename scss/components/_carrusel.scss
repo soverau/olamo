@@ -1,4 +1,4 @@
-/* 
+/*
 -----------------
 main  - carousel
 -----------------
@@ -47,19 +47,15 @@ main  - carousel
       color: $font-color-light;
   }
 
-
   .carousel-control-next-icon {
     display: hidden;
   }
 
 }
 
-
-
-
-/* 
+/*
 -----------------
-responsive - carousel 
+responsive - carousel
 -----------------
 */
 
@@ -74,7 +70,7 @@ responsive - carousel
       font-size: 5vw;
       line-height: 7vw;
     }
-    
+
     .highlight-text {
       padding-bottom: 1vh;
     }
@@ -85,14 +81,13 @@ responsive - carousel
       .carousel-item {
         height: 55vw;
       }
-      
+
     }
-    
-    
+
     .carousel-indicators {
       display: none;
     }
-    
+
     .carousel-caption {
       bottom: -10vw;
       width: 70vw;

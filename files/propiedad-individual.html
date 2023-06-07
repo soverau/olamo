@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1933791366.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Olamo Propiedades</title>
 
@@ -50,7 +51,6 @@
             </nav>
             <form action="" class="searchbar">
                 <input type="search" placeholder="Buscar por palabra/ código" id="busqueda-index">
-                <!-- No sé cómo poner el iconito de la lupa directamente dentro del campo de busqueda así que por ahora dejo un boton de Submit. -->
                 <button type="submit"><span class="fa-solid fa-magnifying-glass"></span></button>
             </form>
         </div>
@@ -83,13 +83,23 @@
             </div>
 
                 <div class="text-block">
-                    <h1>Título de la publicación</h1>
+                    <h1>La elegancia y el lujo en su máxima expresión</h1>
 
                     <div class="description">
-                        <h2>Calle de la casa y Barrio</h2>
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
+                        <h2>Av del Libertador 2300</h2>
+                        <p>Descubra la elegancia y el lujo en su máxima expresión en este impresionante departamento en venta. Ubicado en una exclusiva torre residencial, este hogar de ensueño combina a la perfección el diseño contemporáneo con detalles exquisitos y acabados de alta calidad.</p>
+
+                        <p>Al ingresar a este apartamento, será recibido por un amplio vestíbulo que conduce a una espaciosa sala de estar con ventanales de piso a techo, ofreciendo una vista panorámica de la ciudad. La luminosidad natural ilumina cada rincón, realzando la belleza de los interiores meticulosamente diseñados.</p>
+                        
+                        <p>La cocina gourmet es una obra maestra culinaria, equipada con electrodomésticos de primera línea y una isla central perfecta para entretener a sus invitados. Los materiales de primera calidad, los elegantes gabinetes y las encimeras de lujo se combinan para crear un ambiente sofisticado y funcional.</p>
+                        
+                        <p>El dormitorio principal es un oasis de tranquilidad, con espacio más que suficiente para una cama king-size y una zona de estar privada. El baño principal es un verdadero santuario, con acabados de mármol, una bañera independiente y una ducha de diseño moderno. Además, el departamento cuenta con dormitorios adicionales, perfectos para alojar a familiares o invitados.</p>
+                        
+                        <p>Disfrute de momentos de relajación en el balcón privado, donde podrá deleitarse con las vistas panorámicas de la ciudad mientras disfruta de una copa de vino al atardecer. La torre residencial también ofrece una amplia gama de comodidades de lujo, como una piscina infinita, un gimnasio completamente equipado, un spa y seguridad las 24 horas.</p>
+                        
+                        <p>Ubicado en uno de los barrios más codiciados de la ciudad, este departamento lujoso en venta le brinda acceso a los mejores restaurantes, tiendas de lujo y atracciones culturales. Con un estilo de vida exclusivo y una atención meticulosa a los detalles, esta propiedad es la definición de una vida sofisticada.</p>
+                        
+                        <p>No pierda la oportunidad de adquirir este excepcional departamento y hacer realidad sus sueños de vivir en el pináculo del lujo.</p>
 
                     </div>
 
@@ -108,34 +118,34 @@
             <h2>Propiedades similares</h2>
                         <!--Acá no sé la forma óptima de presentar todo lo que aparece en el bloque de cada propiedad. Es lo que mejor se me ocurre por ahora-->
             <article class="property">
-                <div class="property-image">
+                <div data-aos="fade-up" class="property-image">
                     <div class="opportunity-label">Oportunidad</div>
-                    <a href="propiedad-individual.html"><img class="property-image" src="../images/prop01.jpg" alt="Fachada de la casa 1"></a>
+                    <a href="../files/propiedad-individual.html"><img class="property-image" src="../images/prop01.jpg" alt="Fachada de la casa 1"></a>
                     <div class="transaction-button">Venta</div>
                 </div>
-                <h3>Sed ut perspiciatis unde omnis.</h3>
+                <h3>Departamento de 3 dormitorios - ubicación excelente</h3>
                 <span class="price">U$S 100.000</span>
-                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
+                <p>Departamento en venta en la zona más linda de la ciudad, con amenities y acceso al transporte público, colegios y shoppings a poca distancia.</p>
             </article>
-
+    
             <article  class="property">
-                <div class="property-image">
-                    <a href="propiedad-individual.html"><img class="property-image" src="../images/prop02.jpg" alt="Living de la casa 2"></a>
+                <div data-aos="fade-up" class="property-image">
+                    <a href="../files/propiedad-individual.html"><img class="property-image" src="../images/prop02.jpg" alt="Living de la casa 2"></a>
                     <div class="transaction-button">Venta</div>
                 </div>
-                <h3   h3>Sed ut perspiciatis unde omnis.</h3>
+                <h3>Casa de tres dormitorios con vistas al río</h3>
                 <span class="price">U$S 100.000</span>
-                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
+                <p>Casa de tres dormitorios, cerca del río y de accesos a Ciudad de Buenos Aires. Recientemente refaccionada con jardín parquizado y pileta con hidromasaje.</p>
             </article>
-
+    
             <article class="property">
-                <div class="property-image">
-                    <a href="propiedad-individual.html"><img class="property-image" src="../images/prop03.jpg" alt="Dormitorio de la casa 3"></a>
+                <div data-aos="fade-up" class="property-image">
+                    <a href="../files/propiedad-individual.html"><img class="property-image" src="../images/prop03.jpg" alt="Dormitorio de la casa 3"></a>
                     <div class="transaction-button">Venta</div>
                 </div>
-                <h3>Sed ut perspiciatis unde omnis.</h3>
+                <h3>Departamento en edificio clásico con amenities</h3>
                 <span class="price">U$S 100.000</span>
-                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
+                <p>Muy lindo departamento con vista a Plaza San Martín. Zona con acceso a pie al microcentro, Recoleta, shoppings, cafés y restaurants. Edificio con gimnasio y amenities.</p>
             </article>
 
         </section>
@@ -285,10 +295,13 @@
 
     <!-- END FOOTER -->
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
