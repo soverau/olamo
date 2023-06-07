@@ -1,0 +1,54 @@
+/*
+-----------------
+main  - carousel
+-----------------
+*/
+
+.carousel-container {
+    position: relative;
+
+  .carousel-overlay {
+    position:absolute;
+    background-image: linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(182, 35, 0, 0.43));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 10;
+    width:100vw;
+    height:55vw;
+    }
+
+  .carousel-item {
+    height:100%;
+    max-height:40vw;
+    text-align: left;
+  }
+
+  .carousel-caption {
+    text-align: left;
+    z-index: 100;
+    width:40vw;
+    left: 5vw;
+    bottom:20%;
+    -webkit-box-align:left;
+
+        a button {
+            text-align: left;
+        }
+  }
+
+  .carousel h4 {
+      text-align: left;
+      /*position: relative;
+      display: block;*/
+      font-size: 3rem;
+      line-height:  3.6rem ;
+      margin-bottom: 30px;
+      color: $font-color-light;
+  }
+
+  .carousel-control-next-icon {
+    display: hidden;
+  }
+
+}

@@ -1,0 +1,62 @@
+/*
+-----------------
+responsive - carousel
+-----------------
+*/
+
+@media (max-width:1200px) {
+
+  .carousel-container  {
+    .carousel {
+      height: 35vw;
+  
+      h4 {
+        font-size: 2.1rem;
+        line-height: 2.4rem;
+      }
+    }
+    .carousel-item {
+      height: 35vw;
+
+    }
+  }
+
+}
+@media (max-width:768px) {
+
+.carousel-container  {
+  .carousel {
+    height: 55vw;
+
+    h4 {
+      margin-bottom:5px;
+      font-size: 5vw;
+      line-height: 7vw;
+    }
+
+    .highlight-text {
+      padding-bottom: 1vh;
+    }
+
+    .carousel-inner {
+      height: 55vw;
+
+      .carousel-item {
+        height: 55vw;
+      }
+
+    }
+
+    .carousel-indicators {
+      display: none;
+    }
+
+    .carousel-caption {
+      bottom: -10vw;
+      width: 70vw;
+    }
+
+  }
+}
+
+}

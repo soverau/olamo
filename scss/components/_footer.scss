@@ -1,0 +1,46 @@
+/*
+-----------------
+footer
+-----------------
+*/
+
+footer {
+    margin: 5vh 5vw 3vh 1vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  nav.social ul {
+    padding-right:0px;
+    padding-inline-start: 0px;
+    display: flex;
+    flex-direction: row;
+    width:100px;
+
+    li {
+        padding-right: 20px;
+      }
+  
+  }
+
+  nav.main {
+    min-width: 50vw;
+    max-width: 70vw;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-inline-start: 0px;
+
+        li {
+            padding-right: 20px;
+          
+          }
+      
+    }
+  
+  }
+  
+

@@ -1,0 +1,254 @@
+/*
+-----------------
+responsive
+-----------------
+*/
+
+
+@media (max-width:1200px) {
+
+section {
+    &.otros-servicios {
+        .highlight {
+            .highlight-text {
+                font-size: 1.7rem;
+                padding-right: 20px;
+            }
+        }
+    }
+}
+}
+
+
+@media (max-width:768px) {
+
+section {
+    flex-direction: column;
+    align-items: center;
+    padding: 1vh 1.5vw;
+    width:100%;
+
+    h1{
+        font-size: 2.1rem;
+      }
+
+    h2{
+        font-size: 1.8rem;
+      }
+
+    article {
+        width: 90vw;
+
+        .property-image {
+
+            .opportunity-label {
+                left: 3vw;
+                top: 3vw;
+                right: auto;
+                bottom: auto;
+                padding: 1vw;
+            }
+            
+            .transaction-button {
+                right: 3vw;
+                bottom: 3vw;
+                left: auto;
+                top: auto;
+                padding: 1vw;
+            }
+        }
+
+      }
+
+    /*
+    -----------------
+    responsive section  - busqueda avanzada
+    -----------------
+    */
+
+
+    .advanced-searchbox {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+        padding: 2vw 0;
+
+        .orden {
+            width: 70%;
+        }
+        .scrollbar {
+            width: 80%;
+        }
+
+    }
+
+
+    .otros-servicios .highlight {
+        flex-direction: column;
+        justify-content: space-around;
+        margin-right: 0;
+
+        .highlight-text {
+            font-size: 2rem;
+            text-align: center;
+            width:100%;
+            padding-bottom: 5vh;
+        }
+
+        button {
+            background-color: $color-main;
+            min-width: 40vw;
+            max-width: 50%;
+            margin: 10px auto 20px;
+        }
+
+    }
+
+
+
+    /*
+    -----------------
+    responsive nosotros section - articles
+    -----------------
+    */
+
+
+    &.nosotros {
+        flex-direction: column;
+        justify-content: center;
+        padding:20px;
+        width:100%;
+    }
+    
+    &.six-col-image {
+        min-height: 10vh;
+        width:100%;
+        margin-top:2vh;
+        margin-bottom:3vh;
+    }
+    
+    &.tasaciones {
+        flex-direction: column;
+        justify-content: center;
+        padding:20px;
+        width:100%;
+    }
+    
+    .section-text {
+        width:100%;
+    }
+
+
+    /* 
+    -----------------
+    responsive propiedad individual section
+    -----------------
+    */
+
+    &.individual {
+        padding:30px 5vw;
+
+        .text-block {
+            display: flex;
+            flex-direction: column;
+            width:100%;
+
+            h1 {
+                font-size: 1.6rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
+
+            .description {
+                width: 100%;
+            }
+        }
+
+        .maps {
+            width: 100%;
+            height:50vh;
+        }
+    }
+    
+    .detail-line {
+        align-items: left;
+        padding: 10px 10px 10px 0;
+        max-width: 90vw;
+
+        h3 {
+            margin-bottom: 0;
+            font-size: 1.2rem;
+            line-height: 1.2rem;
+            margin-right: 10px;
+            min-width:25vw;
+        }
+
+        .saletype-button {
+            margin-right: 20px !important;
+        }
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            list-style-type: circle;
+            padding-inline-start:10px;
+            margin-right: 0;
+
+            li {
+                line-height: 16px;
+                margin:0 !important ;
+            }
+
+
+        }
+    }
+
+
+    /*
+    ------------------
+    responsive section - contacto
+    -------------------
+    */
+
+    &.contacto {
+        flex-direction: column;
+        padding:30px 3% 3vh 3%;
+        min-height: 70vh;
+        height: fit-content;
+        text-align: center;
+
+        .highlight-text {
+            width: 80vw;
+            text-align: center;
+            margin-right:0;
+        }
+
+        .contact-form {
+            flex-direction: column;
+            background-color: $font-color-light;
+            padding: 0 5vw 5vw 5vw;
+            width:90vw;
+            text-align: center;
+            justify-content: center;
+
+                input {
+                    width:80vw;
+                }
+
+                a button {
+                    min-width: 25vw;
+                    width:auto;
+                }
+        }
+    }
+
+
+
+}
+}
