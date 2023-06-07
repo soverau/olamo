@@ -39,7 +39,9 @@ text styles
 
 
 .homepage h1, .contacto h1 {
-    display:none;
+    display:hidden;
+    position: absolute;
+    z-index:-1;
 }
 
 h1 {

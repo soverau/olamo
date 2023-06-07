@@ -11,10 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
-    <title>Olamo Propiedades</title>
-
+    <title>Olamo Propiedades | La inmobiliaria especializada en propiedades para expats, diplomáticos y relocalizaciones</title>
+    
 </head>
 
 <body>
@@ -77,7 +78,7 @@
                 <div class="carousel-overlay"></div>
                 <img class="d-block w-100" src="images/slider01.jpg" alt="Fachada de la casa 1">
                 <div class="carousel-caption d-md-block">
-                    <h4 class="highlight-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                    <h4 class="highlight-text">Un equipo listo para ayudarlo con su próxima búsqueda.</h4>
                     <a href="files/busqueda-avanzada.html"><button>Buscar Propiedad</button></a>
                 </div>
             </div>
@@ -85,7 +86,7 @@
                 <div class="carousel-overlay"></div>
                 <img class="d-block w-100" src="images/slider02.jpg" alt="Fachada de la casa 2">
                 <div class="carousel-caption d-md-block">
-                    <h4 class="highlight-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                    <h4 class="highlight-text">Tassaciones de propiedades serias y profesionales</h4>
                     <a href="files/busqueda-avanzada.html"><button>Buscar Propiedad</button></a>
                 </div>
             </div>
@@ -93,7 +94,7 @@
                 <div class="carousel-overlay"></div>
                 <img class="d-block w-100" src="images/slider03.jpg" alt="Fachada de la casa 3">
                 <div class="carousel-caption  d-md-block">
-                    <h4 class="highlight-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                    <h4 class="highlight-text">El equipo de ventas más efectivas de mercado</h4>
                     <a href="files/busqueda-avanzada.html"><button>Buscar Propiedad</button></a>
                 </div>
             </div>
@@ -116,34 +117,34 @@
     <section>
         <h2>Propiedades Destacadas</h2>
         <article class="property">
-            <div class="property-image">
+            <div data-aos="fade-up" class="property-image">
                 <div class="opportunity-label">Oportunidad</div>
                 <a href="files/propiedad-individual.html"><img class="property-image" src="images/prop01.jpg" alt="Fachada de la casa 1"></a>
                 <div class="transaction-button">Venta</div>
             </div>
-            <h3>Sed ut perspiciatis unde omnis.</h3>
+            <h3>Departamento de 3 dormitorios - ubicación excelente</h3>
             <span class="price">U$S 100.000</span>
-            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
+            <p>Departamento en venta en la zona más linda de la ciudad, con amenities y acceso al transporte público, colegios y shoppings a poca distancia.</p>
         </article>
 
         <article  class="property">
-            <div class="property-image">
+            <div data-aos="fade-up" class="property-image">
                 <a href="files/propiedad-individual.html"><img class="property-image" src="images/prop02.jpg" alt="Living de la casa 2"></a>
                 <div class="transaction-button">Venta</div>
             </div>
-            <h3   h3>Sed ut perspiciatis unde omnis.</h3>
+            <h3>Casa de tres dormitorios con vistas al río</h3>
             <span class="price">U$S 100.000</span>
-            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
+            <p>Casa de tres dormitorios, cerca del río y de accesos a Ciudad de Buenos Aires. Recientemente refaccionada con jardín parquizado y pileta con hidromasaje.</p>
         </article>
 
         <article class="property">
-            <div class="property-image">
+            <div data-aos="fade-up" class="property-image">
                 <a href="files/propiedad-individual.html"><img class="property-image" src="images/prop03.jpg" alt="Dormitorio de la casa 3"></a>
                 <div class="transaction-button">Venta</div>
             </div>
-            <h3>Sed ut perspiciatis unde omnis.</h3>
+            <h3>Departamento en edificio clásico con amenities</h3>
             <span class="price">U$S 100.000</span>
-            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
+            <p>Muy lindo departamento con vista a Plaza San Martín. Zona con acceso a pie al microcentro, Recoleta, shoppings, cafés y restaurants. Edificio con gimnasio y amenities.</p>
         </article>
 
     </section>
@@ -154,7 +155,7 @@
     <section class="otros-servicios">
         <h2>Otros Servicios</h2>
         <div class="highlight">
-            <div class="highlight-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</div>
+            <div class="highlight-text">Los invitamos a llamarnos y recibir asesoramiento gratuito en cuanto a la venta o compra de su próxima propiedad</div>
             <!--Acá es mejor usar divs o botones?-->
             <button>Tasaciones</button>
             <button>Contacto</button>
@@ -194,7 +195,10 @@
      <!-- END FOOTER -->
 
 
-
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
