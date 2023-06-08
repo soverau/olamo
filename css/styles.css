@@ -425,7 +425,7 @@ section.nosotros .six-col-image img, section.tasaciones .six-col-image img {
 }
 section.nosotros .section-text, section.tasaciones .section-text {
   display: flex;
-  width: 48vw;
+  width: 47vw;
   flex-direction: column;
   padding: 1vh 1vw 1vh 1vw;
 }
@@ -1025,6 +1025,7 @@ responsive
 @media (max-width: 1200px) {
   section.otros-servicios .highlight .highlight-text {
     font-size: 1.7rem;
+    padding-left: 20px;
     padding-right: 20px;
   }
 }
@@ -1099,10 +1100,10 @@ responsive
     margin-right: 0;
   }
   section .otros-servicios .highlight .highlight-text {
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-align: center;
     width: 100%;
-    padding-bottom: 5vh;
+    padding-bottom: 5vw;
   }
   section .otros-servicios .highlight button, section .otros-servicios .highlight article .property-image .opportunity-label, section article .property-image .otros-servicios .highlight .opportunity-label, section .otros-servicios .highlight article .property-image .transaction-button, section article .property-image .otros-servicios .highlight .transaction-button, section.individual .otros-servicios .highlight .detail-line .saletype-button, section.individual .detail-line .otros-servicios .highlight .saletype-button {
     background-color: #b62300;
@@ -1113,22 +1114,22 @@ responsive
   section.nosotros, section.tasaciones {
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     width: 100%;
   }
-  section.six-col-image {
+  section.nosotros .six-col-image, section.tasaciones .six-col-image {
     min-height: 10vh;
     width: 100%;
     margin-top: 2vh;
     margin-bottom: 3vh;
   }
+  section.nosotros .section-text, section.tasaciones .section-text {
+    width: 100%;
+  }
   section.tasaciones {
     flex-direction: column;
     justify-content: center;
     padding: 20px;
-    width: 100%;
-  }
-  section .section-text {
     width: 100%;
   }
   section.individual {
