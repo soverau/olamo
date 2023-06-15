@@ -33,6 +33,7 @@ text styles
   padding: 0;
   position: absolute;
   z-index: -1;
+  width: 50%;
 }
 
 h1 {
