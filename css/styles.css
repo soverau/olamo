@@ -1042,6 +1042,11 @@ responsive
     -----------------
     */
     /*
+    ------------------
+    responsive section - otros servicios
+    -------------------
+    */
+    /*
     -----------------
     responsive nosotros section - articles
     -----------------
@@ -1095,18 +1100,18 @@ responsive
   section .advanced-searchbox .scrollbar {
     width: 80%;
   }
-  section .otros-servicios .highlight {
+  section.otros-servicios .highlight {
     flex-direction: column;
     justify-content: space-around;
     margin-right: 0;
   }
-  section .otros-servicios .highlight .highlight-text {
+  section.otros-servicios .highlight .highlight-text {
     font-size: 1.6rem;
     text-align: center;
     width: 100%;
     padding-bottom: 5vw;
   }
-  section .otros-servicios .highlight button, section .otros-servicios .highlight article .property-image .opportunity-label, section article .property-image .otros-servicios .highlight .opportunity-label, section .otros-servicios .highlight article .property-image .transaction-button, section article .property-image .otros-servicios .highlight .transaction-button, section.individual .otros-servicios .highlight .detail-line .saletype-button, section.individual .detail-line .otros-servicios .highlight .saletype-button {
+  section.otros-servicios .highlight button, section.otros-servicios .highlight article .property-image .opportunity-label, section.otros-servicios article .property-image .highlight .opportunity-label, section.otros-servicios .highlight article .property-image .transaction-button, section.otros-servicios article .property-image .highlight .transaction-button, section.otros-servicios .highlight section.individual .detail-line .saletype-button, section.individual .detail-line section.otros-servicios .highlight .saletype-button {
     background-color: #b62300;
     min-width: 40vw;
     max-width: 50%;

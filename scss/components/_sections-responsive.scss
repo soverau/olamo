@@ -86,8 +86,14 @@ section {
         }
     }
 
+    /*
+    ------------------
+    responsive section - otros servicios
+    -------------------
+    */
 
-    .otros-servicios .highlight {
+
+    &.otros-servicios .highlight {
         flex-direction: column;
         justify-content: space-around;
         margin-right: 0;
