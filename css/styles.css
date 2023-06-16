@@ -294,7 +294,7 @@ main section  - properties
 -----------------
 */
 section {
-  padding: 5vh 1.5vw;
+  padding: 5vh 10vw;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -402,7 +402,7 @@ section.otros-servicios .highlight button:nth-of-type(2), section.otros-servicio
   border: #b62300 solid 1px;
 }
 section.otros-servicios .highlight-text {
-  width: 70vw;
+  width: 50vw;
   font-size: 2rem;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -414,7 +414,7 @@ section.nosotros, section.tasaciones {
   justify-content: space-between;
 }
 section.nosotros .six-col-image, section.tasaciones .six-col-image {
-  width: 48vw;
+  width: 38vw;
   top: 0px !important;
   padding-top: 0;
   background-color: #ccc;
@@ -426,7 +426,7 @@ section.nosotros .six-col-image img, section.tasaciones .six-col-image img {
 }
 section.nosotros .section-text, section.tasaciones .section-text {
   display: flex;
-  width: 47vw;
+  width: 37vw;
   flex-direction: column;
   padding: 1vh 1vw 1vh 1vw;
 }
@@ -445,16 +445,14 @@ section.tasaciones .section-text {
 section.contacto {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   width: 100%;
   height: 60vh;
-  padding: 30px 3% 3% 3%;
   min-height: 70vh;
   height: fit-content;
   background-color: #eee;
 }
 section.contacto .highlight-text {
-  width: 40vw;
+  width: 30vw;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 100;
@@ -540,7 +538,6 @@ section.individual {
   justify-content: center;
   width: 100%;
   height: 60vh;
-  padding: 30px 3% 3% 3%;
   min-height: 70vh;
   height: fit-content;
   background-color: #eee;
@@ -554,7 +551,7 @@ section.individual .photoframe {
   row-gap: 1vw;
   column-gap: 1vw;
   min-height: 40vw;
-  max-width: 94vw;
+  max-width: 78vw;
   overflow: hidden;
 }
 section.individual .photoframe img {
@@ -635,7 +632,7 @@ section .text-block .description {
   grid-area: text;
   row-gap: 1vw;
   column-gap: 1vw;
-  width: 62.2vw;
+  width: 42.2vw;
   padding-right: 1vw;
 }
 section .maps {
@@ -1024,10 +1021,44 @@ responsive
 -----------------
 */
 @media (max-width: 1200px) {
+  section {
+    padding: 5vh 1.5vw;
+    /*
+    -----------------
+    propiedad individual
+    -----------------
+    */
+    /*
+    -----------------
+    nosotros & tasaciones
+    -----------------
+    */
+  }
   section.otros-servicios .highlight .highlight-text {
     font-size: 1.7rem;
     padding-left: 20px;
     padding-right: 20px;
+  }
+  section.contacto {
+    justify-content: space-around;
+  }
+  section.individual {
+    padding: 30px 3% 3% 3%;
+  }
+  section.individual .photoframe {
+    max-width: 98vw;
+  }
+  section.individual .description {
+    width: 62.2vw;
+  }
+  section.nosotros .six-col-image, section.tasaciones .six-col-image {
+    width: 48vw;
+  }
+  section.nosotros .section-text, section.tasaciones .section-text {
+    width: 47vw;
+  }
+  section.tasaciones {
+    min-height: 47vh;
   }
 }
 @media (max-width: 768px) {
@@ -1154,6 +1185,13 @@ responsive
   }
   section.individual .text-block .description {
     width: 100%;
+  }
+  section.individual .photoframe {
+    display: flex;
+    flex-direction: column;
+  }
+  section.individual .photoframe img:nth-of-type(1) {
+    max-width: 100%;
   }
   section.individual .maps {
     width: 100%;

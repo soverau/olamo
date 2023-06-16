@@ -8,6 +8,8 @@ responsive
 @media (max-width:1200px) {
 
 section {
+    padding:5vh 1.5vw;
+
     &.otros-servicios {
         .highlight {
             .highlight-text {
@@ -17,7 +19,53 @@ section {
                 }
             }
         }
+
+    &.contacto {
+        justify-content: space-around;
     }
+
+        /*
+    -----------------
+    propiedad individual
+    -----------------
+    */
+
+    &.individual {
+
+        padding:30px 3% 3% 3%;
+        
+        .photoframe {
+            max-width: 98vw;
+        
+        }
+        
+        .description {
+
+            width: 62.2vw;
+          }
+      }
+
+    /*
+    -----------------
+    nosotros & tasaciones
+    -----------------
+    */
+
+    &.nosotros {
+  
+        .six-col-image {
+          width: 48vw;
+        }
+  
+        .section-text {
+          width:47vw;
+        }
+      }
+  
+      &.tasaciones {
+          min-height: 47vh;
+      }
+}
 }
 
 
@@ -175,6 +223,15 @@ section {
             .description {
                 width: 100%;
             }
+        }
+
+        .photoframe {
+            display: flex;
+            flex-direction: column;
+
+            & img:nth-of-type(1) {
+                max-width: 100%;
+        }
         }
 
         .maps {
